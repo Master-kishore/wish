@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@media only screen and (max-width: 600px){
+
+    body{
+        background-color: black;
+    }
+
+    .wrapper{
+        border: 6px solid #fff;
+        height: auto;
+        margin: 20px 20px 20px 20px;
+    }
+
+    .wish{
+        position: relative;
+        justify-content: center;
+        min-height: 86vh;
+    }
+
+    .wish video{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    .wish h2{
+        background: linear-gradient( to right, #D4145A,#FBB03B);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+        padding-top: 150px;
+        font-size: 35px;
+        text-transform: uppercase;
+    }
+    .wish h4{
+        color: #C21292;
+        text-align: center;
+        padding-top: 100px;
+        margin-bottom: 45px;
+        font-size: 35px;
+        text-transform: uppercase;
+    }
+
+    .wish #mybtn{
+        margin: 130px;
+        border: 2px solid #00CDAC;
+        color: #fff;
+        padding: 6px 10px 6px 10px;
+        
+    }
+
+
+    
+}
